@@ -1,0 +1,45 @@
+body {
+  background: #e0f2fe; /* sky blue */
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+}
+
+main {
+  background: #fff;
+  max-width: 480px;
+  margin: 48px auto;
+  padding: 32px 24px;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0, 80, 180, 0.08);
+}
+
+button {
+  background: #38bdf8; /* sky blue */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #0ea5e9; /* deeper sky blue */
+}
+
+pre {
+  background: #f0f9ff;
+  color: #0369a1;
+  border-radius: 8px;
+  padding: 16px;
+  font-size: 1rem;
+  overflow-x: auto;
+}
+
+p {
+  color: #0369a1;
+  font-size: 1.1rem;
+}
